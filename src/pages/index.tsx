@@ -18,7 +18,8 @@ export const getStaticProps = async() => {
     props: {
       allbooks,
       recoBooks
-    }
+    },
+    revalidate: 3
   }
 }
 
